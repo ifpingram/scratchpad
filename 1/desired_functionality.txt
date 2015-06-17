@@ -1,0 +1,46 @@
+The Website bosses want to make sure that we record;
+- the date of the click
+- the browser
+- the country of the user
+
+They want to be able to display all this lovely data in lovely reports!
+
+--
+
+The website visitors want to be able to view all the pages which they have clicked.
+
+They also want to be able to be able to share in the profit the website makes from its click baiting
+
+
+-----
+
+Functions for Admins:
+
+    1st Axis of Change
+
+    public function get_click_date() {}
+
+    public function get_browser() {}
+
+    public function get_geo_country() {}
+
+
+    2nd Axis of Change
+
+    public function get_click_date(){}
+
+    public function view_clicks_by_browser() {}
+
+    public function view_clicks_by_geo_country() {}
+
+--
+
+
+Functions for Website visitors:
+
+    3rd Axis of Change?
+
+    public function view_click_history() {}
+
+    public function view_click_earnings() {}
+
